@@ -83,6 +83,8 @@ for ano in range(2001, 2005, 1):
 		for dia in range(1, quantidadeDias + 1, 1):
 			print dia, '/', mes, '/', ano
 
+print
+
 ####################################################
 
 #Ex.3.1 - Calculando quantos dias já vivi:
@@ -126,4 +128,3 @@ for ano in range(1996, 2019, 1):
 				contador += 1
 
 print contador
-print
