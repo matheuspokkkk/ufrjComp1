@@ -2,6 +2,7 @@
 
 #Ex. 1 - Saudando o mundo:
 print "Hello World!"
+
 print
 
 ####################################################
@@ -26,6 +27,7 @@ else:
 		print "Reprovado"
 	else:
 		print "Prova Final"
+		
 print
 
 ####################################################
