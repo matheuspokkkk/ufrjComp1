@@ -1,6 +1,6 @@
 # -*- coding: iso-8859-15 -*-
 
-#Ex. 1 - Recebendo três números e imprimindo o de maior valor:
+#Ex.1 - Recebendo três números e imprimindo o de maior valor:
 pNumero = input("Digite o primeiro número: ")
 sNumero = input("Digite o segundo número: ")
 tNumero = input("Digite o terceiro número: ")
@@ -12,11 +12,45 @@ elif sNumero >= pNumero and sNumero >= tNumero:
 else:
 	print tNumero
 
-print'\n\n'
+print
 
 ####################################################
 
-#Ex. 2 - Imprimindo a raiz quadrada dos números inteiros de 2 até 10, seguindo uma formatação específica:
+#Ex.1.1 - Recebendo três números e imprimindo-os em ordem crescente:
+p, s, t = input("Digite três números: ")
+
+if p <= s and p <= t:
+	print p,
+
+	if s <= t:
+		print s, t
+
+	else:
+		print t, s
+
+elif s <= p and s <= t:
+	print s,
+
+	if p <= t:
+		print p, t
+
+	else:
+		print t, p
+
+else:
+	print t,
+
+	if p <= s:
+		print p, s
+
+	else: 
+		print s, p
+
+print
+
+####################################################
+
+#Ex.2 - Imprimindo a raiz quadrada dos números inteiros de 2 até 10, seguindo uma formatação específica:
 import math
 import locale
 
@@ -31,11 +65,11 @@ while numero < 11:
 
 print "Fim da Tabela"
 
-print'\n\n'
+print
 
 ####################################################
 
-#Ex. 3 - Imprimindo diferentes sequências numéricas:
+#Ex.3 - Imprimindo diferentes sequências numéricas:
 #a)1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 x = 1
 while x < 11:
@@ -66,11 +100,11 @@ while x <= 10**9:
 	print x,
 	x *= 2
 
-print'\n\n'
+print
 
 ####################################################
 
-#Ex. 4 - Encontrando o Máximo Divisor Comum (MDC) de dois números inteiros positivos
+#Ex.4 - Encontrando o Máximo Divisor Comum (MDC) de dois números inteiros positivos
 a, b = raw_input("Entre com dois números inteiros positivos: ").split()
 a, b = [int(a), int(b)]
 
@@ -81,7 +115,5 @@ while a != b:
 		b -= a
 
 print "Máximo divisor: ", a
-
-print'\n\n'
 
 ####################################################
