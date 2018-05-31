@@ -23,7 +23,6 @@ print
 
 ####################################################
 
-
 #Ex.3 - Estimando o valor de pi tendo como parâmetro o número de termos que serão utilizados no cálculo da aproximação:
 import math
 
