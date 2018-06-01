@@ -10,15 +10,15 @@ print
 ####################################################
 
 #Ex.2 - Imprimindo a soma dos dez primeiros termos da sequência 1 - 1/4 + 1/9 - 1/16 + 1/25 ... :
-contador = 0
+soma = 0
 for i in range(1, 11):
 	if i % 2 != 0:
-		contador += 1.0 / i**2
+		soma += 1.0 / i**2
 
 	else:
-		contador -= 1.0 / i**2
+		soma -= 1.0 / i**2
 
-print "Soma =", contador
+print "Soma =", soma
 print
 
 ####################################################
