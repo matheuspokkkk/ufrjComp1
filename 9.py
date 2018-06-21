@@ -39,7 +39,7 @@ mainloop()
 
 ####################################################
 
-#Ex.1 - Fazendo um circulo de cor aleatória e tamanho fixo se mover horizontalmente na tela
+#Ex.2 - Fazendo um circulo de cor aleatória e tamanho fixo se mover horizontalmente na tela
 from Tkinter import *
 import time
 import random
