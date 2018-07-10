@@ -1,6 +1,5 @@
 #Escreva uma função que recebe um número inteiro e retorne True se esse número for divisível por
-#2, por 3 e por 5, ou False, se não for divisível por um ou mais
-desses números.
+#2, por 3 e por 5, ou False, se não for divisível por um ou mais desses números.
 def ehDivisivelPor2e3e5(numeroCandidatoADivisor):
 	if numeroCandidatoADivisor % 2 == 0 and numeroCandidatoADivisor % 3 == 0 and numeroCandidatoADivisor % 5 == 0:
 		return True
