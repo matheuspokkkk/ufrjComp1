@@ -9,7 +9,7 @@ def ehDivisivelPor2e3e5(numeroCandidatoADivisor):
 ###################################################
 
 #Escreva uma função denominada EHPRIMO que recebe como parâmetro um número inteiro e retorna
-#True se esse número é primo ou False, se não
+#True se esse número é primo ou False, se não.
 def EHPRIMO(numeroCandidatoAPrimo):
 	denominador = numeroCandidatoAPrimo
 	contadorDeDivisoesSemResto = 0
@@ -29,7 +29,7 @@ def EHPRIMO(numeroCandidatoAPrimo):
 
 #Escreva uma função, denominada XPTO, que receba uma string como parâmetro e retorne uma
 #string que contém os caracteres que aparecem nessa string, porém sem repetições.
-#Por exemplo XPTO(“PARALELO”) retorna “PARLEO
+#Por exemplo XPTO(“PARALELO”) retorna “PARLEO".
 def XPTO(string):
 	caracteresUnicos = ""
 
