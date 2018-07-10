@@ -1,5 +1,6 @@
-"""Escreva uma função que recebe um número inteiro e retorne True se esse número for divisível por 2, por 3 e por 5, ou False, se não for divisível por um ou mais
-desses números."""
+#Escreva uma função que recebe um número inteiro e retorne True se esse número for divisível por
+#2, por 3 e por 5, ou False, se não for divisível por um ou mais
+desses números.
 def ehDivisivelPor2e3e5(numeroCandidatoADivisor):
 	if numeroCandidatoADivisor % 2 == 0 and numeroCandidatoADivisor % 3 == 0 and numeroCandidatoADivisor % 5 == 0:
 		return True
@@ -8,7 +9,8 @@ def ehDivisivelPor2e3e5(numeroCandidatoADivisor):
 
 ###################################################
 
-"""Escreva uma função denominada EHPRIMO que recebe como parâmetro um número inteiro e retorna True se esse número é primo ou False, se não."""
+#Escreva uma função denominada EHPRIMO que recebe como parâmetro um número inteiro e retorna
+#True se esse número é primo ou False, se não
 def EHPRIMO(numeroCandidatoAPrimo):
 	denominador = numeroCandidatoAPrimo
 	contadorDeDivisoesSemResto = 0
@@ -26,7 +28,9 @@ def EHPRIMO(numeroCandidatoAPrimo):
 
 ###################################################
 
-"""Escreva uma função, denominada XPTO, que receba uma string como parâmetro e retorne uma string que contém os caracteres que aparecem nessa string, porém sem repetições. Por exemplo XPTO(“PARALELO”) retorna “PARLEO”"""
+#Escreva uma função, denominada XPTO, que receba uma string como parâmetro e retorne uma
+#string que contém os caracteres que aparecem nessa string, porém sem repetições.
+#Por exemplo XPTO(“PARALELO”) retorna “PARLEO
 def XPTO(string):
 	caracteresUnicos = ""
 
@@ -38,7 +42,8 @@ def XPTO(string):
 
 ###################################################
 
-"""Escreva uma função intitulada PALINDROMO que receba uma lista de palavras e retorne uma lista como todos os palíndromos da lista recebida."""
+#Escreva uma função intitulada PALINDROMO que receba uma lista de palavras e retorne uma lista com
+#todos os palíndromos da lista recebida.
 def PALINDROMO(listaDePalavras):
 	listaDePalindromos = []
 
@@ -52,7 +57,8 @@ def PALINDROMO(listaDePalavras):
 
 ###################################################
 
-"""Escreva uma função denominada SORTEIO que recebe como parâmetro o nome de um arquivo de texto contendo uma coleção de palavras, uma em cada linha, e retorne uma das palavras aleatoriamente escolhida."""
+#Escreva uma função denominada SORTEIO que recebe como parâmetro o nome de um arquivo de texto contendo
+#uma coleção de palavras, uma em cada linha, e retorne uma das palavras aleatoriamente escolhida.
 def SORTEIO(arquivoDeTexto): 
 	import random
 
@@ -66,7 +72,8 @@ def SORTEIO(arquivoDeTexto):
 
 ###################################################
 
-"""Escreva uma função denominada UNIAO que recebe como parâmetros duas listas de palavras, que podem conter repetições, e retorne uma lista com o conjunto (sem repetição) união das duas listas."""
+#Escreva uma função denominada UNIAO que recebe como parâmetros duas listas de palavras, que podem conter
+#repetições, e retorne uma lista com o conjunto (sem repetição) união das duas listas.
 def UNIAO(listaDePalavras1, listaDePalavras2):
 	listaDePalavras3 = []
 
@@ -82,7 +89,8 @@ def UNIAO(listaDePalavras1, listaDePalavras2):
 
 ###################################################
 
-"""Escreva uma função denominada INTERSECAO que recebe como parâmetros duas listas de palavras, que podem conter repetições, e retorne uma lista com o conjunto (sem repetição) interseção das duas listas."""
+#Escreva uma função denominada INTERSECAO que recebe como parâmetros duas listas de palavras, que podem
+#conter repetições, e retorne uma lista com o conjunto (sem repetição) interseção das duas listas.
 def INTERSECAO(listaDePalavras1, listaDePalavras2):
 	listaDePalavras3 = []
 
@@ -94,7 +102,8 @@ def INTERSECAO(listaDePalavras1, listaDePalavras2):
 
 ###################################################
 
-"""Escreva uma função denominada DIFERENCA que recebe como parâmetros duas listas de palavras, que podem conter repetições, e retorne uma lista com o a diferença entre a primeira lista e a segunda."""
+#Escreva uma função denominada DIFERENCA que recebe como parâmetros duas listas de palavras, que podem
+#conter repetições, e retorne uma lista com o a diferença entre a primeira lista e a segunda.
 def DIFERENCA(listaDePalavras1, listaDePalavras2):
 	listaDePalavras3 = []
 
@@ -110,7 +119,9 @@ def DIFERENCA(listaDePalavras1, listaDePalavras2):
 
 ###################################################
 
-"""Escreva uma função denominada DOISARQUIVOS que recebe como parâmetros dois nomes de arquivos texto, cada um contendo uma coleção de palavras, uma em cada linha, que podem conter repetições, e grave um novo arquivo, denominado INTERSECAO, contendo o conjunto (sem repetição) interseção das palavras dos dois arquivos."""
+#Escreva uma função denominada DOISARQUIVOS que recebe como parâmetros dois nomes de arquivos texto, cada um
+#contendo uma coleção de palavras, uma em cada linha, que podem conter repetições, e grave um novo
+#arquivo, denominado INTERSECAO, contendo o conjunto (sem repetição) interseção das palavras dos dois arquivos.
 def DOISARQUIVOS(arquivoDeTexto1, arquivoDeTexto2):
 	arquivo1 = open(arquivoDeTexto1).readlines()
 	arquivo2 = open(arquivoDeTexto2).readlines()
@@ -133,7 +144,10 @@ def DOISARQUIVOS(arquivoDeTexto1, arquivoDeTexto2):
 
 ###################################################
 
-"""Escreva uma função denominada AVALIA que recebe como parâmetros uma string de gabaritos e uma string de respostas de uma prova de múltipla escolha, e retorne o número de respostas certas de acordo com esse gabarito. Considere que possa haver eventuais respostas em branco. Se houver algum erro nos parâmetros, a função deve retornar -1."""
+#Escreva uma função denominada AVALIA que recebe como parâmetros uma string de gabaritos e uma string de
+#respostas de uma prova de múltipla escolha, e retorne o número de respostas certas de acordo com esse gabarito.
+#Considere que possa haver eventuais respostas em branco.
+#Se houver algum erro nos parâmetros, a função deve retornar -1.
 def AVALIA(stringGabaritos, stringRespostas):
 	respostasCertas = 0
 
